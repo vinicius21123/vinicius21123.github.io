@@ -1,0 +1,126 @@
+html{
+    font-family:Helvetica;
+    color:seashell;
+    background-color: black;
+    margin:0;
+    padding:0;
+
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header{
+    position:sticky;
+    background-color: green;
+    z-index: 2;
+    
+}
+
+
+nav{
+    position:fixed; 
+    right:16px;
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    letter-spacing: 1.7px;
+    padding-left:10px;
+}
+nav ul li a{
+    
+    color: seashell;
+}
+header img{
+    position: fixed;
+    height:50px;
+    width: auto;
+    padding-left: 10px;
+
+}
+
+main{
+    margin:20px;
+    position: relative;
+    top:69px;
+
+}
+main img{
+    height:auto;
+    max-height:700px;
+    width: 100%;
+    position:relative;
+}
+.missionSectionBanner{
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.teaSection{
+    top:150px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.containerImg{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+
+}
+.containerImg img{
+    display:inline-flex;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.locationSection{
+    background-image: url("locations.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    top:170px;
+    position: relative;
+    text-align: center;
+    margin:20px;
+    height: 500px;
+    width: auto;
+    padding:50px;
+}
+
+.containerLocation{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding:20px;
+   
+}
+.locationItem{
+    background-color: black;
+    width: 300px;
+    margin: 20px;
+}
+footer{
+    top:170px;
+    position: relative;
+    text-align: center;
+    height: 200px;
+    font-size: 18px;
+}
+footer a{
+    color:seashell;
+    text-decoration: none;
+}
+footer p{
+    text-align: left;
+}
