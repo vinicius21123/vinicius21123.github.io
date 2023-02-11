@@ -1,55 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
     <head>
-        <title>Home Page</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href = "style.css">
-        <meta name="viewport" content="widht=device=width,initial-scale = 1.0">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
     <body>
-        <header><img src="image/audi-logo.png"></header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="classes.html">Classes</a></li>
-                <li><a href="enroll.html">Enroll</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <figure class="haha">
-            <img src="image/audi.png">
-        </figure>
+        <!--Logo!-->
+        <header>
+            <div>
+                <img src="tealogo.png"/>
+                <!--Navigation(top right)!-->
+                <nav>
+                    <ul>
+                        <li><a href="#micsao">Mission</a></li>
+                        <li><a href="#tea">Featured Tea</a></li>
+                        <li><a href="#location">Locations</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <!--Our mission (main banner)!-->
         <main>
-            <div class="row">
-                <div class="column left desktop">
-                    <p>column left desktop</p>
-                    <p> The Harry Potter series — both books and movies — are packed with emotional speeches <br>and moving dialogue. And although J.K. Rowling declared that “Harry is done” following the release of The Cursed Child play, the endlessly inspirational quotes to come out of the franchise will undoubtedly continue to be one of its most enduring legacies.</p>
-                </p>
+            <img id="micsao" src="mission.png"/>
+            <section class="missionSectionBanner">
+                <h2>Our Mission</h2>
+                <h4>Handpicked,Artisanally Curted,Free Range,Sustainable,Small Batch,Fair Trade,Organic Tea</h4>
+            </section>
+        </main>
+        <!--Teas of the month!-->
+        <section id="tea" class="teaSection">
+            <section class="headingTea">
+                <h2>Tea of the Month</h2>
+                <p>What's Steeping at The Tea Cozy?</p>
+            </section>
+            <div class="containerImg">
+                <div class="item">
+                    <img src="berryblitz.png"/>
+                    <p>Fall Berry Blitz Tea</p>
                 </div>
-                <div class ="column center">
-                    <h1>HELLO THERE</h1>
-                    <p>column center<br>hahaha</p>
-                    <p>
-                        BY MEGAN MCCLUSKEY 
-                         FEBRUARY 20, 2017 9:14 AM EST
-                        The Harry Potter series — both books and movies — are packed with emotional speeches <br>and moving dialogue. And although J.K. Rowling declared that “Harry is done” following the release of The Cursed Child play, the endlessly inspirational quotes to come out of the franchise will undoubtedly continue to be one of its most enduring legacies.</p>
+                <div class="item">
+                    <img src="spiced.png"/>
+                    <p>Spiced Rum Tea</p>
                 </div>
-                <div class="column right tablet">
-                    <p>column right tablet</p>
-                    <p>                        The Harry Potter series — both books and movies — are packed with emotional speeches <br>and moving dialogue. And although J.K. Rowling declared that “Harry is done” following the release of The Cursed Child play, the endlessly inspirational quotes to come out of the franchise will undoubtedly continue to be one of its most enduring legacies.</p>
-                </p>
+                <div class="item">
+                    <img src="donut.png"/>
+                    <p>Seasonal Donut</p>
+                </div>
+                <div class="item">
+                    <img src="myrtle.png"/>
+                    <p>Myrtle Ave Tea</p>
+                </div>
+                <div class="item">
+                    <img src="bizarre.png"/>
+                    <p>Bedford Bizzare Tea</p>
                 </div>
             </div>
+        </section>
+        <!--Locations!-->
+        <section id="location"class="locationSection">
 
+            <h2>Locations</h2>
 
-
-        </main>
+            <div class="containerLocation">
+                <div class="locationItem">
+                    <h3>Downtown</h3>
+                    <p>384 West 4th St</p>
+                    <p>Suite 108</p>
+                    <p>Portland, Maine</p>
+                </div>
+                <div class="locationItem">
+                    <h3>East Bayside</h3>
+                    <p>3433 phis</p>
+                    <p>Suite 8</p>
+                    <p>Portland, Maine</p>
+                </div>
+                <div class="locationItem">
+                    <h3>Oakdale</h3>
+                    <p>99 Crescent Avenue</p>
+                    <p>Second Floor</p>
+                    <p>Portland, Maine</p>
+                </div>
+            </div>
+        </section>
+        <!--footer!-->
         <footer>
-            <p>Our location:<br>1234 BAD st<br>Antonio banderas pt 12345<br></p>
-            <a>phone number: <a href="tel:5555551212">(555) 555-11212</a></a><br>
-            <a>email<a href="mailto:ownrr@hunu.com">uyhy@jig.com</a></a>
+            <h1>The Tea Cozy</h1>
+            <h5><a href="mailto:contact@theteacozy.com">contact@theteacozy.com</a></h5>
+            <a href="tel:917-555-8904">917-555-8904</a>
+            <p>copyright The Tea Cozy 2017</p>
         </footer>
     </body>
-    </head>
 </html>
